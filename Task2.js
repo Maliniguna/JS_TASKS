@@ -1,8 +1,11 @@
 //Chp2-ts-1
+
 var score;
 var playerName;
 var level;
+
 //Chp2-ts-2
+
 var score;
 score = 200;
 console.log(score);
@@ -12,17 +15,21 @@ var score2;
 score2 = 150;
 var score;
 score = 200;
-console.log(score); // This will display 200
+console.log(score); 
 var score2;
 score2 = 150;
-console.log(score2); // This will display 150
+console.log(score2); 
+
 //Chp2-ts-5
+
 var message;
 message = "Hello World!";
 console.log(message); 
 message = 'Congratulations!';
 console.log(message); 
+
 //Chp2-ts-6
+
 var playerName;
 var locationName;
 var score;
@@ -31,7 +38,9 @@ locationName = "Argentina";
 score = 100;
 console.log(playerName + " is in " + locationName);
 console.log(playerName + " has a score of " + score);
+
 //Chp2-ts-8
+
 var score;
 score = 100;
 console.log("Your score was " + score);
