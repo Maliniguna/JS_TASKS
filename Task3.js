@@ -1,14 +1,19 @@
-//cp-task-1
+//cp3-task-1
+
 var bookTitle;
 var bookAuthor;
 bookTitle = "DARKKNIGHT";
 bookAuthor = "RAM";
 console.log(bookTitle + " by " + bookAuthor);
-//cp-task-2
+
+//cp3-task-2
+
 var book1Title = "DARKKNIGHT";
 var book1Author = "RAM";
 console.log(book1Title + " by " + book1Author);
-//cp-task-3
+
+//cp3-task-3
+
 var book;
 book = {
     title: "DARKKNIGHT",
@@ -21,7 +26,9 @@ var book;
 book = {
     title : "DARKKNIGHT"
 };
-//cp-task-6
+
+//cp3-task-6
+
 var book;
 var bookName;
 bookName = "The KNIGHT";
@@ -29,7 +36,9 @@ book = {
     title: bookName
 };
 console.log(book);
-//cp-task-11
+
+//cp3-task-11
+
 var player1;
 var player2;
 player1 = {
@@ -47,7 +56,7 @@ player2 = {
 };
 var totalScore = player1.score + player2.score;
 console.log(player1.name + " and " + player2.name + " have a combined score of " + totalScore);
-//cp-task-12
+//cp3-task-12
 var geolocation = {
     "city"      : "JOSAN",
     "state"     : "TN",
@@ -57,9 +66,11 @@ var geolocation = {
     "longitude" : -122.418,
     "elevation" : 47.000
 };
-console.log(geolocation.city); // Check the city property
-console.log(geolocation);      // Display the entire geolocation object
-//cp-task-15
+console.log(geolocation.city); 
+console.log(geolocation);     
+
+//cp3-task-15
+
 var player1;
 player1 = {
     name: "Kandra",
