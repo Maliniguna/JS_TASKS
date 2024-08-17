@@ -1,4 +1,5 @@
-//cp3-task-1
+//cp4-task-1
+
 var movie1 = {
     title: "Inside Out",
     actors: "Amy Poehler, Bill Hader",
@@ -31,7 +32,9 @@ console.log("Author: " + blogPost.author);
 console.log("Date: " + blogPost.date);
 console.log("Content: " + blogPost.content);
 console.log("------------------------------");
-//cp3-task-2
+
+//cp4-task-2
+
 var movie1 = {
     title: "Inside Out",
     actors: "Amy Poehler, Bill Hader",
@@ -108,7 +111,9 @@ console.log("Date: " + event3.date);
 console.log("Time: " + event3.time);
 console.log("Location: " + event3.location);
 console.log("------------------------------");
-//cp3-task-5
+
+//cp4-task-5
+
 var findTotal;
 var displayMenu;
 findTotal = function () {
@@ -128,7 +133,9 @@ displayMenu = function () {
 };
 findTotal();
 displayMenu(); 
-//cp3-task-9
+
+//cp4-task-9
+
 var showMovieInfo;
 showMovieInfo = function () {
     console.log("Movie information for " + movie.title);
@@ -151,7 +158,9 @@ movie = {
     directors: "Pete Docter, Ronaldo Del Carmen"
 };
 showMovieInfo();
-//cp3-task-13
+
+//cp4-task-13
+
 var player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
