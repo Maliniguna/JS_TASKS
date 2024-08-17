@@ -1,4 +1,5 @@
 //cp5-task-1
+
 var message;
 var showMessage;
 message = "It's full of stars!";
@@ -12,7 +13,9 @@ showMessage = function () {
     console.log(msg); 
 };
 showMessage();
+
 //cp5-task-3
+
 var showMessage;
 showMessage = function (message) {
     console.log("The message is: " + message);
@@ -26,7 +29,9 @@ showMessage = function (message) {
 };
 showMessage("It's full of stars!"); 
 showMessage("Hello, world!"); 
+
 //cp5-task-6
+
 var showSum = function (number1, number2) {
     var total = number1 + number2;
     console.log("The sum is " + total);
@@ -50,7 +55,9 @@ showDifference(100, 45);
 showDifference(15.5, 10); 
 showQuotient(20, 4); 
 showQuotient(9, 3); 
+
 //cp5-task-8
+
 var showPlayerName = function (playerName) {
     console.log(playerName.toUpperCase());
 };
@@ -71,7 +78,9 @@ showPlayerName = function (playerName) {
 };
 showPlayerName(player1.name); 
 showPlayerName(player2.name); 
+
 //cp5-task-14
+
 var showLine = function (length) {
     var line = "--------------------"; 
     console.log(line.substring(0, length));
